@@ -11,5 +11,4 @@ sample_dictionary = {'color':'green','car_brand':'toyota', 'shoe_size':'8.5', 'b
 favorite_fruits = {'avocado', 'blueberry', 'mango', 'banana', 'dragon fruit!!!'}
 seven_days = ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday')
 
-
-document.getElementById('result').innerHTML = f' <h1>Understanding Data Types</h1> Name: {name}<br> Age: {age}<br> Height: {height} cm <br> Countries I want to visit: {countries_to_visit}<br> Student Type: {student_type}<br> Dictionary: {sample_dictionary}<br>  Favorite Fruits: {favorite_fruits}<br> Days of the Week: {seven_days}<br>'
+ocument.getElementById('result').innerHTML = f' <h1>Understanding Data Types</h1> My Name is <b>{name}</b>! I am {age} years old. I am a short king having a height of {height} cm. Countries I want to visit: {countries_to_visit}. Am I a new student? {student_type}! Dictionary: {sample_dictionary}. My Favorite Fruits: {favorite_fruits}. Dragon fruit is my most favorite. Days of the Week: {seven_days}. Weekends are the best.'
